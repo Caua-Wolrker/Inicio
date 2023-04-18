@@ -78,7 +78,6 @@ header {
 }
 
 #divfotoPerfil {
-    background-color: red;
     display: flex;
     position: absolute;
     max-width: 200px;
