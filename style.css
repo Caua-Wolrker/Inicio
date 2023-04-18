@@ -31,12 +31,6 @@ header {
     filter: invert(1);
 }
 
-@media screen and (min-width: 800px) {
-    #Fundo {
-        background-color: red;
-    }
-}
-
 #Fundo {
     position: relative;
     display: flex;
