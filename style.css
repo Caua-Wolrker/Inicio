@@ -34,6 +34,7 @@ header {
 @media screen and (max-width: 480px) {
     #Fundo {
         border-radius: 0;
+        max-width: 100%;
     }
 }
 
