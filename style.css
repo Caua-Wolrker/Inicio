@@ -31,6 +31,12 @@ header {
     filter: invert(1);
 }
 
+@media screen and (max-width: 480px) {
+    #Fundo {
+        border-radius: 0;
+    }
+}
+
 #Fundo {
     position: relative;
     display: flex;
