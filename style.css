@@ -31,7 +31,7 @@ header {
     filter: invert(1);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
     #Fundo {
         border-radius: 0;
         max-width: 100%;
