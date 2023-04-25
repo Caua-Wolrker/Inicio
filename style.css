@@ -14,16 +14,16 @@ header {
     position: absolute;
     background-color: rgb(89, 100, 100);
     width: 100%;
-    height: 75px;
+    height: 50px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
 #imgMenu {
     position: absolute;
-    width: 45px;
-    top: 13px;
-    left: 20px;
+    width: 35px;
+    top: 7px;
+    left: 12px;
 
 }
 
@@ -45,19 +45,19 @@ header {
     max-width: 900px;
     height: 300px;
     min-height: 200px;
-    top: 150px;
+    top: 125px;
     margin: auto;
     border-radius: 10px;
 }
 
 #Social {
     position: absolute;
-    top: 13px;
+    top: 7px;
     right: 12px;
 }
 
 .logoSocial {
-    width: 45px;
+    width: 35px;
 }
 
 .logoSocial {
@@ -103,11 +103,11 @@ header {
 
 .Menu {
     position: absolute;
-    top: 27px;
-    left: 80px;
+    top: 16px;
+    left: 60px;
     text-decoration: none;
     color: white;
-    
+    font-size: 13px;
 }
 
 
