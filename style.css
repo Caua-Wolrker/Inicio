@@ -160,3 +160,12 @@ footer {
 span {
     color: rgb(0, 145, 255);
 }
+
+#caua {
+    text-decoration: none;
+    color: rgb(0, 105, 205);
+}
+
+#caua:hover {
+    color: rgb(0, 145, 255);
+}
