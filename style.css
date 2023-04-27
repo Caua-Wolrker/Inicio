@@ -49,6 +49,7 @@ header {
     top: 125px;
     margin: auto;
     border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 #Social {
@@ -109,6 +110,39 @@ header {
     font-size: 13px;
 }
 
+#areasLinguagens {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(44, 102, 156);
+    position: absolute;
+    top: 160px;
+    left: 45%;
+    max-width: 300px;
+    max-height: 100px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#areasLinguagens>h2 {
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+}
+
+#regiaoLinguagens {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.areaLogo {
+    position: relative;
+    display: flex;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+}
 
 /*MAIN*/
 
@@ -126,6 +160,7 @@ header {
     font-family: sans-serif;
     text-align: justify;
     text-indent: 75px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 #textMain {
