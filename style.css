@@ -1,6 +1,7 @@
 * {
     padding: 0%;
     margin: 0%;
+    user-select: none;
 }
 body {
     background-color: #2b2d31;
@@ -12,11 +13,12 @@ body {
 
 #camadaM {
     width: 200px;
-    height: 400px;
-    background-color: #ccc;
+    height: 100%;
+    background-color: rgb(68, 70, 82);
     position: absolute;
     left: -200px;
-    transition: left 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 1;
 }
 
 /**HEADER**/
@@ -28,6 +30,8 @@ header {
     height: 50px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 2;
 }
 
 #imgMenu {
@@ -58,7 +62,7 @@ header {
     max-width: 900px;
     height: 300px;
     min-height: 200px;
-    top: 125px;
+    top: 90px;
     margin: auto;
     border-radius: 10px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
@@ -110,14 +114,25 @@ header {
 }
 
 
-.Menu {
-    position: absolute;
-    top: 16px;
-    left: 60px;
+.menuText {
+    position: relative;
+
+    border-radius: 5px;
+    top: 65px;
+    padding: 10px 100px 10px 25px;
+    margin: 10px 100px 10px 25px;
+    width: 150px;
+    height: 150px;
+    left: 15px;
     text-decoration: none;
     color: white;
     font-size: 13px;
+    background-color: #37393d;
 }
+.menuText:hover {
+    filter: invert(1);
+}
+
 
 
 #areaPrin {
@@ -146,6 +161,7 @@ header {
     font-family: Arial;
     font-size: 15px;
     text-align: center;
+    user-select: text;
 }
 
 #regiaoLinguagens {
@@ -181,22 +197,22 @@ header {
     max-width: 800px;
     min-height: 150px;
     max-height: 250px;
-    top: 400px;
+    top: 125px;
     font-family: sans-serif;
     text-align: justify;
     text-indent: 75px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
 }
 
-#textMain {
-    position: absolute;
+#mainText {
+    position: relative;
     max-width: 800px;
     min-height: 150px;
     max-height: 250px;
-    top: 375px;
     font-family: sans-serif;
     text-align: justify;
     text-indent: 75px;
+    user-select: text;
 }
 
 
@@ -205,7 +221,7 @@ header {
 
 #textFooter {
     position: relative;
-    top: 600px;
+    top: 240px;
 }
 
 footer {
