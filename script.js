@@ -12,18 +12,20 @@ function barraMenu() {
     var camadaM = document.getElementById("camadaM");
     var sombra = document.getElementById("sombra");
 
-    if (camadaM.style.left == "-200px") 
+    if (camadaM.style.left != "-200px") 
     {
+        sombra.style.left = "-100%"
+        sombra.style.opacity = "0"
+        camadaM.style.left = "-200px";
+        camadaM.style.width = "0";
+        camadaM.style.height = "0";   
+    } else
+    {
+        sombra.style.left = "0%"
         sombra.style.opacity = "50%"
         camadaM.style.left = "0";
         camadaM.style.width = "200px";
         camadaM.style.height = "100%";
-    } else
-    {
-        sombra.style.opacity = "0"
-        camadaM.style.left = "-200px";
-        camadaM.style.width = "0";
-        camadaM.style.height = "0";
     }
 
     
