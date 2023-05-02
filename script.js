@@ -8,15 +8,7 @@ if (window.confirm("Antes de você continuar,eu quero fazer uma pergunta, pode s
 }
 */
 
-window.onresize = function() {
-    var areasLinguagens = documento.getElementById("areasLinguagens");
-    var larguraDaJanela = window.innerWidth;
-    var posicaoDaDiv = areasLinguagens.getBoundingClientRect().right;
-
-    if (posicaoDaDiv >= larguraDaJanela) 
-    {
-        areasLinguagens.classList.add("diminuir");
-    } else {
-        areasLinguagens.classList.remove("diminuir");
-    }
+function barraMenu() {
+    var camadaM = document.getElementById("camadaM");
+    camadaM.style.left = "10px";
 }
